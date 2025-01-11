@@ -138,13 +138,13 @@
 }
 
 /* Section-03 */
-.Vision-title{
+.Vision-title, .news-title{
     color: #0E0E0E;
     font-size: 40px;
     font-weight: bold;
     padding-left:60px;
 }
-.vision-info{
+.vision-info ,.news-info{
     color: rgb(0, 0, 0, 0.7) ;
     font-size: 16px;
     padding-left: 60px;
@@ -214,3 +214,208 @@
     border: 1px solid #FFC239;
     border-radius: 8px;
 }
+/* section-04 */
+
+.quote-part{
+    margin: 0 auto;
+    padding: 24px 48px;
+    margin-top: 32px;
+    border: 1px solid #FFFFFF;
+    width: 1120px;
+    height: 255px;
+    background-color: #FFFFFF;
+    border-radius: 16px;
+    background-image: url(../assets/quote-bg.png);
+    background-position: 25px 25px;
+    background-repeat: no-repeat;
+    background-size: 64px;
+}
+.main-quote{
+    font-size: 20px;
+    font-weight: semibold;
+    line-height: 24px;
+}
+.adviser{
+    font-size: 16px;
+    font-weight: regular;
+    color:rgb(0, 0, 0, 0.6) ;
+    margin-top:4px ;
+}
+.dr.Yunus{
+    font-size: 16px;
+    font-weight: regular;
+    color:rgb(0, 0, 0, 0.6) ;
+    margin-top:4px ;
+}
+/* section 6 */
+
+.al-jazeera-news{
+    width: 1220px;
+    height: 402px;;
+    width: 80%;
+    height: 80vh;
+    border: 1px solid  #FFFFFF;
+    background-color: #FFFFFF;
+    margin: 0% auto;
+    display: flex;
+    padding: 48px 48px;
+    border-radius: 24px;
+
+
+}
+.satelite-img{
+    width:408px ;
+    height: 306px;
+    border-radius:24px ;
+}
+.al-jazeera-content{
+    width: 744px;
+    height: 290px;
+    padding-right: 32px;
+    padding-left: 32px;
+}
+.al-jazeera-news-2{
+    display: flex;
+    margin: 0 auto;
+    padding: 24px 48px;
+    margin-top: 32px;
+    border: 1px solid  #FFFFFF;
+    background-color: #FFFFFF;
+    width: 1220px;
+    height: 402px;;
+    width: 80%;
+    height: 80vh;
+}
+.al-jazeera-news-3{
+    display: flex;
+    margin: 0 auto;
+    padding: 24px 48px;
+    margin-top: 32px;
+    border: 1px solid  #FFFFFF;
+    background-color: #FFFFFF;
+    width: 1220px;
+    height: 402px;;
+    width: 80%;
+    height: 80vh;
+}
+.btn-jajeera{
+    color: white;
+    font-weight: semibold;
+    font-size: 18px;
+    height: 48px;
+    width: 149px;
+    padding: 15px;
+    border: 1px solid #006A50;
+    background-color: #006A50;
+    border-radius: 8px;
+    margin-bottom: 25px;
+
+}
+    
+.Donate{
+   text-align: center;
+}
+.donation-info{
+    color:rgba(0, 0, 0, 0.7) ;
+    font-weight: regular;
+    font-size: 16px;
+    line-height: 24px;
+    width: 1104px;
+    height: 48px;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 24px;
+}
+.btn-tk{
+    color: #0E0E0E;
+    font-weight: bold;
+    font-size: 18px;
+    height: 48px;
+    width: 149px;
+    padding: 15px;
+    border: 1px solid  #FFFFFF;
+    background-color: #FFFFFF;
+    border-radius: 8px;
+
+}
+.btn-tk-4{
+    color: #0E0E0E;
+    font-weight: bold;
+    font-size: 18px;
+    height: 48px;
+    width: 184px;
+    padding: 15px;
+    border: 1px solid  #FFFFFF;
+    background-color: #FFFFFF;
+    border-radius: 8px;
+
+}
+.btn-jajeera{
+    margin-top: 24px;
+}
+.input-jajeera{
+    margin-top: 24px;
+    height: 64px;
+    width: 1032px;
+    border: 1px solid #FFFFFF;
+    text-align : center;
+}
+.last-section{
+    width: 1220px;
+    height: 402px;
+    width: 80%;
+    height: 80vh;
+    border: 1px solid #C6E4D6;
+    background-color: #C6E4D6;
+    margin: 0 auto;
+    text-align: center;
+    padding: 80px 100px;
+    align-items: center;
+
+}
+.last-section{
+    padding: 80px 100px;
+
+}
+.sub{
+    font-size: 40px;
+    font-weight: bold;
+}
+ .input{
+    width: 600px;
+    height: 55px;
+    text-align: center;
+    border: 1px solid #FFFFFF;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+ }
+.sub-btn{
+    color: white;
+    font-weight: semibold;
+    font-size: 18px;
+    width: 149px;
+    height: 59px;
+    padding: 15px;
+    border: 1px solid #006A50;
+    background-color: #006A50;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    margin-bottom: 25px;
+}
+.input-button{
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    height: 55px;
+}
+.footer{
+    width: 1180px;
+    height: 226px;
+    border: 1px solid #FFFFFF;
+    background-color:#FFFFFF;
+    margin: 0 auto;
+    margin-top: 80px;
+    text-align: center;
+    padding: 80px 100px;
+    align-items: center;
+     }
