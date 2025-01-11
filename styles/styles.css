@@ -1,0 +1,136 @@
+/* font from google */
+
+.open-sans-normal {
+    font-family: "Open Sans", serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
+}
+
+.bg-color {
+    background-color: #F5F5F5;
+}
+
+/* nav section */
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 19px 100px;
+
+}
+
+.nav-title {
+    color: #0E0E0E;
+    font-weight: bold;
+    font-size: 32px;
+}
+
+.nav-btn {
+    color: #006A50;
+    font-weight: semibold;
+    font-size: 18px;
+    height: 52px;
+    width: 116px;
+    padding: 15px 30px;
+    border: 1px solid #006A50;
+    background-color: white;
+}
+
+/* button styles */
+.btn-primary {
+    color: #006A50;
+}
+
+/* Section-01(banner) */
+
+.banner {
+    width: 1280px;
+    height: 560px;
+    width: 80%;
+    height: 80vh;
+    border: 1px solid #C6E4D6;
+    background-color: #C6E4D6;
+    margin: 0% auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 80px 60px;
+    border-radius: 24px;
+}
+
+.banner-content {
+    width: 620px;
+    height: 334px;
+}
+
+.banner-title {
+    color: rgba(0, 0, 0, 0.5);
+    font-size: medium;
+    font-weight: 24px;
+
+}
+
+.banner-description {
+    font-weight: bold;
+    font-size: 86px;
+    color: #0E0E0E;
+    padding: 14px;
+}
+
+.banner-btn {
+    color: white;
+    font-weight: semibold;
+    font-size: 18px;
+    width: 270px;
+    height: 56px;
+    padding: 15px 30px;
+    border: 1px solid #006A50;
+    background-color: #006A50;
+    border-radius: 8px;
+    margin-top: 14px;
+}
+
+.banner-img {
+    width: 474px;
+    height: 400px;
+    padding-right: 60px;
+
+}
+
+/* Section-02(box) */
+
+.pillar-title{
+    color: #0E0E0E;
+    font-weight: bold;
+    font-size: 40px;
+    padding-left:60px;
+    padding-bottom: 30px;
+    padding-top:50px ;
+}
+.pillars-bd {
+    display: flex;
+    gap: 24px;
+    padding: 0 60px;
+}
+
+.innovation {
+    font-weight: semibold;
+    font-size: 16px;
+    width: 302px;
+    height: 244px;
+    padding: 24px;
+    background-color: #FFFFFF;
+    border-radius: 16px;
+
+}
+
+.box-content {
+    background-color: #FFFFFF;
+    border-radius: 16px;
+    width: 302px;
+    height: 244px;
+    padding: 24px;
+}
